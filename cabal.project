@@ -1,2 +1,6 @@
-packages: ../large-records, .
+packages: .
 
+source-repository-package
+  type: git
+  location: https://github.com/well-typed/large-records
+  tag: ab2d6e5589199fd03e12fcbe5b7b5666944dfb85
