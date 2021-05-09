@@ -9,7 +9,7 @@ library
     exposed-modules:  Data.Record.Generic.Beam
     build-depends:    base >= 4.13,
                       beam-core,
-                      large-records,
+                      large-records ^>= 0.1.0.1,
                       microlens,
                       text
     hs-source-dirs:   src
